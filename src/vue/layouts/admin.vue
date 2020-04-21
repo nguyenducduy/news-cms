@@ -9,7 +9,7 @@
       <el-col :span="24">
         <nuxt :key="$route.fullPath" />
       </el-col>
-      <el-col :span="24" class="footer">OLLI Technology &#169; 2017</el-col>
+      <el-col :span="24" class="footer">MK Software &#169; 2017</el-col>
     </el-row>
   </div>
 </template>
