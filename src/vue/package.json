@@ -49,5 +49,8 @@
     "vue-server-renderer": "^2.5.9",
     "vue-template-compiler": "^2.5.9",
     "whatwg-fetch": "^2.0.3"
+  },
+  "resolutions": {
+    "nodemon/chokidar/fsevents": "1.2.4"
   }
 }
