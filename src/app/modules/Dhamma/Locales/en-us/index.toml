@@ -1,0 +1,3 @@
+message-delete-dhamma-success = 'Dhamma ID %id% was deleted successfully. '
+label-status-enabled = 'Enabled'
+label-status-disabled = 'Disabled'

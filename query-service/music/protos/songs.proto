@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.olliplaymusic";
+option java_outer_classname = "OLLIPlayMusic";
+option objc_class_prefix = "OLLIPLAYMUSIC";
+
+package olliplaymusic;
+
+// Interface exported by the server.
+service MusicService {
+  rpc querySongs(Query) returns (Songs) {}
+}
+
+message Query {
+  int32 sid = 1;
+  string name = 2;
+  string artist = 3;
+  string title = 4;
+  string myid = 5;
+  string filepath = 6;
+  string album = 7;
+  string genre = 8;
+  float length = 9;
+  int32 cbr = 10;
+  int32 status = 11;
+  int32 countlisten = 12;
+}
+
+message Song {
+  int32 sid = 1;
+  string name = 2;
+  string artist = 3;
+  string title = 4;
+  string myid = 5;
+  string filepath = 6;
+  string album = 7;
+  string genre = 8;
+  float length = 9;
+  int32 cbr = 10;
+  int32 status = 11;
+  int32 countlisten = 12;
+}
+
+message Songs {
+  repeated Song songs = 1;
+}

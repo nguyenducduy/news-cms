@@ -1,0 +1,11 @@
+message-delete-user-success = 'Song ID %id% was deleted successfully. '
+message-myid-notempty = 'My ID is required. '
+message-status-notempty = 'Status is required. '
+
+label-status-enable = 'Enabled'
+label-status-disable = 'Disabled'
+label-download-status-pending = 'Pending'
+label-download-status-downloading = 'Downloading'
+label-download-status-completed = 'Ready'
+label-download-status-error = 'Error'
+label-download-status-fetch-fail = 'Download link invalid'

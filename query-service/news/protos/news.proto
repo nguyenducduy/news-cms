@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.ollinews";
+option java_outer_classname = "OLLINews";
+option objc_class_prefix = "OLLINEWS";
+
+package ollinews;
+
+// Interface exported by the server.
+service NewsService {
+  rpc queryNewss(Query) returns (Newss) {}
+}
+
+message Query {
+  int32 nid = 1;
+  string keyword = 2;
+}
+
+message News {
+  int32 nid = 1;
+  string description = 2;
+}
+
+message Newss {
+  repeated News data = 1;
+}

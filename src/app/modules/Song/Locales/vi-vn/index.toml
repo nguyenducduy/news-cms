@@ -1,0 +1,11 @@
+message-delete-user-success = 'Bài hát ID %id% đã được xoá thành công. '
+message-myid-notempty = 'My ID là bắt buộc. '
+message-status-notempty = 'Trạng thái là bắt buộc. '
+
+label-status-enable = 'Hiện'
+label-status-disable = 'Ẩn'
+label-download-status-pending = 'Hàng đợi'
+label-download-status-downloading = 'Đang tải'
+label-download-status-completed = 'Hoàn thành'
+label-download-status-error = 'Lỗi'
+label-download-status-fetch-fail = 'Link tải không có giá trị'

@@ -1,0 +1,198 @@
+# 1
+[vnexpress]
+source = 'vnexpress'
+url = 'https://vnexpress.net/rss'
+[vnexpress.category]
+the-gioi = '/the-gioi.rss'
+kinh-doanh = '/kinh-doanh.rss'
+giai-tri = '/giai-tri.rss'
+the-thao = '/the-thao.rss'
+phap-luat = '/phap-luat.rss'
+giao-duc = '/giao-duc.rss'
+suc-khoe = '/suc-khoe.rss'
+du-lich = '/du-lich.rss'
+khoa-hoc = '/khoa-hoc.rss'
+so-hoa = '/so-hoa.rss'
+xe = '/oto-xe-may.rss'
+cong-dong = '/cong-dong.rss'
+tam-su = '/tam-su.rss'
+cuoi = '/cuoi.rss'
+
+# 10
+[startup_vnexpress]
+source = 'startup_vnexpress'
+url = 'https://vnexpress.net/rss'
+[startup_vnexpress.category]
+startup = '/startup.rss'
+
+# 2
+[soha]
+source = 'soha'
+url = 'http://soha.vn'
+[soha.category]
+giai-tri = '/giai-tri.rss'
+the-thao = '/the-thao.rss'
+thoi-su = '/thoi-su.rss'
+phap-luat = '/phap-luat.rss'
+kinh-doanh = '/kinh-doanh.rss'
+quoc-te = '/quoc-te.rss'
+song-khoe = '/song-khoe.rss'
+quan-su = '/quan-su.rss'
+cu-dan-mang = '/cu-dan-mang.rss'
+kham-pha = '/kham-pha.rss'
+doi-song = '/doi-song.rss'
+
+# 3
+[kenh14]
+source = 'kenh14'
+url = 'http://kenh14.vn'
+[kenh14.category]
+sport = '/sport.rss'
+doi-song = '/doi-song.rss'
+fashion = '/fashion.rss'
+musik = '/musik.rss'
+cine = '/cine.rss'
+2-tek = '/2-tek.rss'
+la-cool = '/la-cool.rss'
+star = '/star.rss'
+xa-hoi = '/xa-hoi.rss'
+suc-khoe-gioi-tinh = '/suc-khoe-gioi-tinh.rss'
+hoc-duong = '/hoc-duong.rss'
+the-gioi = '/the-gioi.rss'
+tv-show = '/tv-show.rss'
+kham-pha = '/kham-pha.rss'
+an-ca-the-gioi = '/an-ca-the-gioi.rss'
+
+# 4
+[dantri]
+source = 'dantri'
+url = 'http://dantri.com.vn'
+[dantri.category]
+suc-khoe = '/suc-khoe.rss'
+xa-hoi = '/xa-hoi.rss'
+giai-tri = '/giai-tri.rss'
+giao-duc-khuyen-hoc = '/giao-duc-khuyen-hoc.rss'
+the-thao = '/the-thao.rss'
+the-gioi = '/the-gioi.rss'
+kinh-doanh = '/kinh-doanh.rss'
+o-to-xe-may = '/o-to-xe-may.rss'
+suc-manh-so = '/suc-manh-so.rss'
+tinh-yeu-gioi-tinh = '/tinh-yeu-gioi-tinh.rss'
+chuyen-la = '/chuyen-la.rss'
+viec-lam = '/viec-lam.rss'
+nhip-song-tre = '/nhip-song-tre.rss'
+tam-long-nhan-ai = '/tam-long-nhan-ai.rss'
+phap-luat = '/phap-luat.rss'
+tuyen-sinh = '/tuyen-sinh.rss'
+van-hoa = '/van-hoa.rss'
+du-hoc = '/du-hoc.rss'
+du-lich = '/du-lich.rss'
+doi-song = '/doi-song.rss'
+khoa-hoc-cong-nghe = '/khoa-hoc-cong-nghe.rss'
+ban-doc = '/ban-doc.rss'
+
+# 5
+[vietnamnet]
+source = 'vietnamnet'
+url = 'http://vietnamnet.vn/rss'
+[vietnamnet.category]
+phap-luat = '/phap-luat.rss'
+cong-nghe = '/cong-nghe.rss'
+kinh-doanh = '/kinh-doanh.rss'
+giao-duc = '/giao-duc.rss'
+thoi-su = '/thoi-su.rss'
+giai-tri = '/giai-tri.rss'
+suc-khoe = '/suc-khoe.rss'
+the-thao = '/the-thao.rss'
+doi-song = '/doi-song.rss'
+the-gioi = '/the-gioi.rss'
+bat-dong-san = '/bat-dong-san.rss'
+ban-doc = '/ban-doc.rss'
+tin-moi-nong = '/tin-moi-nong.rss'
+tin-noi-bat = '/tin-noi-bat.rss'
+goc-nhin-thang = '/goc-nhin-thang.rss'
+
+# 6
+[thanhnien]
+source = 'thanhnien'
+url = 'https://thanhnien.vn/rss'
+[thanhnien.category]
+thoi-su = '/thoi-su.rss'
+phap-luat = '/phap-luat.rss'
+chinh-tri-xa-hoi = '/chinh-tri-xa-hoi.rss'
+doi-song = '/doi-song.rss'
+viec-lam = '/viec-lam.rss'
+the-gioi = '/the-gioi.rss'
+chinh-tri = '/chinh-tri.rss'
+van-hoa-nghe-thuat = '/van-hoa-nghe-thuat.rss'
+truyen-hinh = '/truyen-hinh.rss'
+kinh-te = '/kinh-te.rss'
+the-gioi-tre = '/the-gioi-tre.rss'
+giao-duc = '/giao-duc.rss'
+cong-nghe-thong-tin = '/cong-nghe-thong-tin.rss'
+
+[thethao_thanhnien]
+source = 'thethao_thanhnien'
+url = 'https://thethao.thanhnien.vn/rss'
+[thethao_thanhnien.category]
+the-thao = '/home.rss'
+
+[game_thanhnien]
+source = 'game_thanhnien'
+url = 'https://game.thanhnien.vn/rss'
+[game_thanhnien.category]
+game = '/home.rss'
+
+[xe_thanhnien]
+source = 'xe_thanhnien'
+url = 'https://xe.thanhnien.vn/rss'
+[xe_thanhnien.category]
+xe = '/home.rss'
+
+# 7
+[vneconomy]
+source = 'vneconomy'
+url = 'http://vneconomy.vn/rss'
+[vneconomy.category]
+thoi-su = '/thoi-su.rss'
+doanh-nhan = '/doanh-nhan.rss'
+tai-chinh = '/tai-chinh.rss'
+chung-khoan = '/chung-khoan.rss'
+thi-truong = '/thi-truong.rss'
+bat-dong-san = '/bat-dong-san.rss'
+the-gioi = '/the-gioi.rss'
+cuoc-song-so = '/cuoc-song-so.rss'
+xe-360 = '/xe-360.rss'
+
+# 8
+[ngoisao]
+source = "ngoisao"
+url = 'https://ngoisao.net/rss'
+[ngoisao.category]
+thoi-cuoc = '/thoi-cuoc.rss'
+phong-cach = '/phong-cach.rss'
+cuoi-hoi = '/cuoi-hoi.rss'
+showbiz-viet = '/showbiz-viet.rss'
+chau-a = '/chau-a.rss'
+hollywood = '/hollywood.rss'
+khoe-dep = '/khoe-dep.rss'
+24h = '/24h.rss'
+chuyen-la = '/chuyen-la.rss'
+hinh-su = '/hinh-su.rss'
+thuong-truong = '/thuong-truong.rss'
+thoi-trang = '/thoi-trang.rss'
+lam-dep = '/lam-dep.rss'
+an-choi = '/an-choi.rss'
+dan-choi = '/dan-choi.rss'
+cuoi = '/cuoi.rss'
+game = '/game.rss'
+miss = '/miss.rss'
+co-dau = '/co-dau.rss'
+chia-se = '/chia-se.rss'
+
+# 9
+# [tinhte]
+# source = "tinhte"
+# url = 'https://tinhte.vn/rss'
+# [tinhte.category]
+# so-hoa = ''

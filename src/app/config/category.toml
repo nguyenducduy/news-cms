@@ -1,0 +1,187 @@
+[[items]]
+id = 1
+name = "Thời sự"
+slugs = [ "thoi-su" ]
+
+[[items]]
+id = 2
+name = "Thể thao"
+slugs = [
+  "the-thao",
+  "sport",
+  "bong-da-viet-nam",
+  "bong-da-the-gioi",
+  "quan-vot"
+]
+
+[[items]]
+id = 3
+name = "Giải trí"
+slugs = [
+  "giai-tri",
+  "musik",
+  "cine",
+  "star",
+  "tv-show",
+  "truyen-hinh",
+  "hau-truong",
+  "ben-le",
+  "thoi-cuoc",
+  "thu-gian",
+  "showbiz-viet",
+  "chau-a",
+  "hollywood",
+  "chuyen-la",
+  "an-choi",
+  "dan-choi",
+  "miss",
+  "game",
+  "cuoi"
+]
+
+[[items]]
+id = 4
+name = "Pháp luật"
+slugs = [ "phap-luat", "hinh-su" ]
+
+[[items]]
+id = 5
+name = "Kinh doanh"
+slugs = [
+  "kinh-doanh",
+  "bat-dong-san",
+  "kinh-te",
+  "doanh-nhan",
+  "tai-chinh",
+  "chung-khoan",
+  "thi-truong",
+  "thuong-truong",
+  "startup"
+]
+
+[[items]]
+id = 6
+name = "Thế giới"
+slugs = [
+  "the-gioi",
+  "quan-su",
+  "quoc-te"
+]
+
+[[items]]
+id = 7
+name = "Sức khoẻ"
+slugs = [
+  "suc-khoe",
+  "song-khoe",
+  "suc-khoe-gioi-tinh",
+  "khoe-dep",
+  "lam-dep"
+]
+
+[[items]]
+id = 8
+name = "Cộng đồng"
+slugs = [
+  "cong-dong",
+  "cu-dan-mang",
+  "la-cool",
+  "chuyen-la",
+  "goc-nhin-thang",
+  "24h",
+  "chia-se",
+  "tam-long-nhan-ai",
+  "tam-su",
+  "ban-doc"
+]
+
+[[items]]
+id = 9
+name = "Đời sống"
+slugs = [
+  "doi-song",
+  "gia-dinh",
+  "nhip-song-tre",
+  "tinh-yeu-gioi-tinh",
+  "du-hoc",
+  "an-ca-the-gioi",
+  "viec-lam",
+  "the-gioi-tre",
+  "cuoi-hoi",
+  "co-dau"
+]
+
+[[items]]
+id = 10
+name = "Khám phá"
+slugs = [
+  "kham-pha",
+  "khoa-hoc"
+]
+
+[[items]]
+id = 11
+name = "Thời trang"
+slugs = [
+  "thoi-trang",
+  "fashion",
+  "phong-cach"
+]
+
+[[items]]
+id = 12
+name = "Số hoá"
+slugs = [
+  "so-hoa",
+  "2-tek",
+  "suc-manh-so",
+  "khoa-hoc-cong-nghe",
+  "cong-nghe",
+  "cong-nghe-thong-tin",
+  "cuoc-song-so"
+]
+
+[[items]]
+id = 13
+name = "Xã hội"
+slugs = [
+  "xa-hoi",
+  "chinh-tri-xa-hoi",
+  "chinh-tri"
+]
+
+[[items]]
+id = 14
+name = "Giáo dục"
+slugs = [
+  "giao-duc",
+  "hoc-duong",
+  "giao-duc-khuyen-hoc",
+  "tuyen-sinh"
+]
+
+[[items]]
+id = 15
+name = "Xe"
+slugs = [
+  "xe",
+  "o-to-xe-may",
+  "xe-360"
+]
+
+[[items]]
+id = 16
+name = "Du lịch"
+slugs = [
+  "du-lich",
+  "van-hoa",
+  "van-hoa-nghe-thuat"
+]
+
+[[items]]
+id = 17
+name = "Tin nổi bật"
+slugs = [
+  "tin-noi-bat",
+  "tin-moi-nong"
+]
