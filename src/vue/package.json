@@ -50,7 +50,7 @@
     "vue-template-compiler": "^2.5.9",
     "whatwg-fetch": "^2.0.3"
   },
-  "resolutions": {
-    "**/fsevents": ">=1.2.4"
+  "optionalDependencies": {
+    "fsevents": "2.1.2"
   }
 }
