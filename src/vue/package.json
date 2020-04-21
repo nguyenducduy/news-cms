@@ -51,6 +51,6 @@
     "whatwg-fetch": "^2.0.3"
   },
   "resolutions": {
-    "nodemon/chokidar/fsevents": "1.2.4"
+    "**/fsevents": ">=1.2.4"
   }
 }
