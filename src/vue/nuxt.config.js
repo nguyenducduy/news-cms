@@ -11,6 +11,7 @@ const webpack = require("webpack");
 const CompressionPlugin = require("compression-webpack-plugin");
 
 module.exports = {
+  mode: "spa",
   cache: process.env.NODE_ENV === "development" ? false : true,
   loading: {
     color: "#3498db",

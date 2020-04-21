@@ -29,17 +29,6 @@
         {{ $t('default.list') }}
       </el-menu-item>
     </el-submenu>
-    <el-submenu index="/admin/dhamma">
-      <template slot="title">{{ $t('navigation.dhammas') }}</template>
-      <el-menu-item index="/admin/dhamma">
-        <i class="el-icon-fa-navicon"></i>
-        {{ $t('default.list') }}
-      </el-menu-item>
-      <el-menu-item index="/admin/dhamma/create">
-        <i class="el-icon-fa-plus"></i>
-        {{ $t('default.create') }}
-      </el-menu-item>
-    </el-submenu>
     <el-dropdown class="avatar-container" v-if="currentUser">
       <div class="avatar-wrapper">
         <span class="user-name">{{ currentUser.sub.fullname }}</span>
