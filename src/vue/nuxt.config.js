@@ -23,6 +23,7 @@ module.exports = {
     hints: process.env.NODE_ENV === "production" ? "warning" : false
   },
   router: {
+    mode: "history",
     middleware: ["i18n", "check-auth"]
   },
   head: {

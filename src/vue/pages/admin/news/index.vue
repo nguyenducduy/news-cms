@@ -1,10 +1,16 @@
 <template>
   <div>
     <el-col :span="24">
-      <div class="filter-icon"><i class="el-icon-fa-newspaper-o"></i></div>
+      <div class="filter-icon">
+        <i class="el-icon-fa-newspaper-o"></i>
+      </div>
       <breadcrumb :bc="bc" :totalItems="totalItems" />
       <div class="top-right-toolbar">
-        <pagination :totalItems="totalItems" :currentPage="query.page" :recordPerPage="recordPerPage" />
+        <pagination
+          :totalItems="totalItems"
+          :currentPage="query.page"
+          :recordPerPage="recordPerPage"
+        />
       </div>
     </el-col>
     <el-col :span="24">
@@ -14,13 +20,19 @@
       <div class="panel-body">
         <el-row>
           <el-col :span="24" style="text-align: right;">
-            <el-button size="mini" icon="el-icon-fa-refresh" @click="handleRefresh()">
-              {{ $t('default.refresh') }}
-            </el-button>
+            <el-button
+              size="mini"
+              icon="el-icon-fa-refresh"
+              @click="handleRefresh()"
+            >{{ $t('default.refresh') }}</el-button>
           </el-col>
         </el-row>
         <list-view :records="myNewss.records" v-show="loading === false" />
-        <pagination :totalItems="totalItems" :currentPage="query.page" :recordPerPage="recordPerPage" />
+        <pagination
+          :totalItems="totalItems"
+          :currentPage="query.page"
+          :recordPerPage="recordPerPage"
+        />
         <span v-show="loading === true" class="loading">
           <i class="el-icon-fa-spinner el-icon-fa-spin"></i>
         </span>
@@ -30,15 +42,15 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
-import Breadcrumb from '~/components/admin/Breadcrumb'
-import Pagination from '~/components/admin/Pagination'
-import FilterBar from '~/components/admin/news/FilterBar'
-import ListView from '~/components/admin/news/ListView'
+import { mapState } from "vuex";
+import Breadcrumb from "~/components/admin/Breadcrumb";
+import Pagination from "~/components/admin/Pagination";
+import FilterBar from "~/components/admin/news/FilterBar";
+import ListView from "~/components/admin/news/ListView";
 
 export default {
-  layout: 'admin',
-  middleware: 'authenticated',
+  layout: "admin",
+  middleware: "authenticated",
 
   components: {
     Breadcrumb,
@@ -49,15 +61,15 @@ export default {
 
   head() {
     return {
-      title: this.$t('pages.admin.newss.title'),
+      title: this.$t("pages.admin.newss.title"),
       meta: [
         {
-          hid: 'description',
-          name: 'description',
-          content: this.$t('pages.admin.newss.title')
+          hid: "description",
+          name: "description",
+          content: this.$t("pages.admin.newss.title")
         }
       ]
-    }
+    };
   },
 
   data() {
@@ -65,16 +77,16 @@ export default {
       loading: false,
       bc: [
         {
-          name: this.$t('pages.admin.newss.title'),
-          link: '/admin/news'
+          name: this.$t("pages.admin.newss.title"),
+          link: "/admin/news"
         },
         {
-          name: this.$t('default.list'),
-          link: ''
+          name: this.$t("default.list"),
+          link: ""
         }
       ],
       source: {}
-    }
+    };
   },
 
   computed: mapState({
@@ -84,39 +96,40 @@ export default {
     query: state => state.newss.query
   }),
 
-  mounted() {
-    this.fetchDataAction()
+  created() {
+    console.log("created");
+    this.fetchDataAction();
   },
 
   methods: {
     async fetchDataAction() {
-      this.loading = true
+      this.loading = true;
       await this.$store
-        .dispatch('newss/get_all', {
+        .dispatch("newss/get_all", {
           authToken: this.$store.state.authToken,
           query: this.$route.query
         })
         .then(() => {
-          this.loading = false
+          this.loading = false;
         })
         .catch(e => {
-          this.loading = false
-        })
+          this.loading = false;
+        });
 
       await this.$store
-        .dispatch('newss/get_form_source', {
+        .dispatch("newss/get_form_source", {
           authToken: this.$store.state.authToken
         })
         .then(() => {
-          this.source = this.$store.state.newss.formSource.records
+          this.source = this.$store.state.newss.formSource.records;
         })
         .catch(e => {
-          this.loading = false
-        })
+          this.loading = false;
+        });
     },
     handleRefresh() {
-      return this.fetchDataAction()
+      return this.fetchDataAction();
     }
   }
-}
+};
 </script>
