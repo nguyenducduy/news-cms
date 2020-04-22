@@ -71,8 +71,8 @@ export default {
   data() {
     return {
       loginForm: {
-        email: '',
-        password: ''
+        email: 'admin@mksoftware.com',
+        password: '1111'
       },
       loading: false
     }
