@@ -14,7 +14,6 @@ src/vue/node_modules/*
 src/vue/yarn.lock
 src/vue/yarn-error.log
 src/vue/package-lock.lock
-src/vue/.nuxt/*
 query-service/music/node_modules/*
 query-service/dhamma/node_modules/*
 query-service/dict/node_modules/*
