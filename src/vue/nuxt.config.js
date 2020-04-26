@@ -9,6 +9,7 @@ if (results.error) {
 const envConfig = results.parsed;
 const webpack = require("webpack");
 const CompressionPlugin = require("compression-webpack-plugin");
+var resolve = require("path").resolve;
 
 module.exports = {
   mode: "spa",
@@ -147,5 +148,8 @@ module.exports = {
       use: ["babel-loader"],
       exclude: /node_modules/
     }
-  ]
+  ],
+  generate: {
+    dir: resolve(__dirname, "./dist")
+  }
 };
